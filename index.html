@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+        }
+        
+        .box{
+            border: solid 0px black;
+            width: 500px;
+            text-align: center;
+            font-size: 70px;
+            margin-top: 390px;
+            margin-left: 210px;
+        }
+        body{
+            background-image: url(teddy.png);
+            background-repeat: no-repeat;
+        }
+        h1{
+            color: blue;
+            font-weight: bolder;
+            text-shadow: 3px 3px 3px grey;
+        }
+    </style>
+    <title>Document</title> 
+</head>
+<body onload="setInterval(digitalClock,1000)">
+<div class="body">
+    <h1>My Digital clock</h1>
+
+    <div class="box">
+        <div class="container">
+            <span>00</span> :
+            <span>00</span> :
+            <span>00</span>
+        </div>
+        <div>
+            <span>00</span> :
+            <span>00</span> :
+            <span>0000</span>
+        </div>
+    </div>
+</div>
+    <script src="./Digitalclock.js"></script>
+</body>
+</html>
